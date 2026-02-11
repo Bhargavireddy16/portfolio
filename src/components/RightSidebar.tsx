@@ -1,7 +1,7 @@
 const profiles = [
   { name: "Sahil krishna Ananthula", degree: "2nd", title: "AI / ML Engineer | Data Engineer | GenAI, NLP, MLO..." },
   { name: "Bindu K.", degree: "2nd", title: "Databricks Data Engineer | AWS Glue, PySpark, Delta..." },
-  { name: "Nithya Patibandla", degree: "2nd", title: "C.S computer science 2028 | Student at University of Nort..." },
+  { name: "Nithya Patibandla", degree: "2nd", title: "C.S computer science 2025 | Student at University of Nort..." },
   { name: "Siddhartha Kundaram", degree: "2nd", title: "Data Analyst | Python | SQL | PL/SQL | Power BI | Tableau |..." },
 ];
 
