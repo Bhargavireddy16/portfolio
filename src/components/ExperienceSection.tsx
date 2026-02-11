@@ -2,13 +2,13 @@ import { useState } from "react";
 import lifeSpanLogo from "@/assets/life-span.jpeg";
 import amexLogo from "@/assets/american-express.png";
 
-const ExpandableDescription = ({ 
-  preview, 
-  full, 
-  skills 
-}: { 
-  preview: string[]; 
-  full: string[]; 
+const ExpandableDescription = ({
+  preview,
+  full,
+  skills
+}: {
+  preview: string[];
+  full: string[];
   skills: string;
 }) => {
   const [expanded, setExpanded] = useState(false);
@@ -59,7 +59,7 @@ const ExperienceSection = () => {
           <div className="flex-1 min-w-0">
             <h3 className="text-base font-semibold text-foreground">Full Stack Engineer</h3>
             <p className="text-sm text-foreground">Life Span · Full-time</p>
-            <p className="text-xs text-muted-foreground">Nov 2025 - Feb 2026 · 4 mos</p>
+            <p className="text-xs text-muted-foreground">Oct 2025 - Present · 5 mos</p>
             <ExpandableDescription
               preview={[
                 "· Built end-to-end web applications using Django for backend APIs and Vue.js for frontend interfaces, delivering scalable and reliable full-stack systems.",
