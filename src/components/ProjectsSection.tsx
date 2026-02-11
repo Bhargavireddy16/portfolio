@@ -29,7 +29,7 @@ const ProjectsSection = () => {
       {/* Construct AI */}
       <div>
         <h3 className="text-base font-semibold text-foreground">
-          <a href="https://ai-scene-generator.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a href="https://bhargavireddy16.github.io/construct-ai/" target="_blank" rel="noopener noreferrer" className="hover:underline">
             Construct AI
           </a>
         </h3>
@@ -42,7 +42,7 @@ const ProjectsSection = () => {
           <span>Electron, Three.js, Node.js and +4 skills</span>
         </div>
         <div className="border border-border rounded-lg overflow-hidden max-w-md">
-          <a href="https://ai-scene-generator.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
+          <a href="https://bhargavireddy16.github.io/construct-ai/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
             <div className="w-24 h-16 shrink-0 bg-muted">
               <img src={getAssetPath("/projects/construct-ai.png")} alt="Construct AI" className="w-full h-full object-cover" />
             </div>
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
       {/* Architex AI */}
       <div>
         <h3 className="text-base font-semibold text-foreground">
-          <a href="https://azure-ai-drafter.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a href="https://bhargavireddy16.github.io/architex-ai/" target="_blank" rel="noopener noreferrer" className="hover:underline">
             Architex AI
           </a>
         </h3>
@@ -72,7 +72,7 @@ const ProjectsSection = () => {
           <span>Next.js, Azure AI, Three.js and +2 skills</span>
         </div>
         <div className="border border-border rounded-lg overflow-hidden max-w-md">
-          <a href="https://azure-ai-drafter.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
+          <a href="https://bhargavireddy16.github.io/architex-ai/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
             <div className="w-24 h-16 shrink-0 bg-muted">
               <img src={getAssetPath("/projects/architex-ai.png")} alt="Architex AI" className="w-full h-full object-cover" />
             </div>
