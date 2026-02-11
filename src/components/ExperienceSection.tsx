@@ -58,7 +58,7 @@ const ExperienceSection = () => {
           <img src={lifeSpanLogo} alt="Life Span" className="w-12 h-12 rounded object-contain flex-shrink-0" />
           <div className="flex-1 min-w-0">
             <h3 className="text-base font-semibold text-foreground">Full Stack Engineer</h3>
-            <p className="text-sm text-foreground">Life Span · Full-time</p>
+            <p className="text-sm text-foreground">Life Span · Full-time · Remote</p>
             <p className="text-xs text-muted-foreground">Oct 2025 - Present · 5 mos</p>
             <ExpandableDescription
               preview={[
@@ -80,8 +80,8 @@ const ExperienceSection = () => {
           <img src={amexLogo} alt="American Express" className="w-12 h-12 rounded object-contain flex-shrink-0" />
           <div className="flex-1 min-w-0">
             <h3 className="text-base font-semibold text-foreground">American Express</h3>
-            <p className="text-sm text-foreground">Full-time · 2 yrs 2 mos</p>
-            <p className="text-xs text-muted-foreground">Dallas, Texas, United States</p>
+            <p className="text-sm text-foreground">Full-time · 2 yrs 5 mos</p>
+            <p className="text-xs text-muted-foreground">Bengaluru, India</p>
 
             {/* Timeline roles */}
             <div className="mt-4 space-y-0">
@@ -107,7 +107,7 @@ const ExperienceSection = () => {
               <div className="relative pl-6 pb-6 border-l-2 border-border">
                 <div className="absolute -left-[5px] top-1 w-2 h-2 rounded-full bg-foreground" />
                 <h4 className="text-sm font-semibold text-foreground">Full Stack Engineer I</h4>
-                <p className="text-xs text-muted-foreground">Jan 2022 - Dec 2022 · 1 yr</p>
+                <p className="text-xs text-muted-foreground">Sep 2021 - Dec 2022 · 1 yr 4 mos</p>
                 <ExpandableDescription
                   preview={[
                     "· Built scalable full-stack features using React and backend services, integrating enterprise systems across multiple applications.",
@@ -125,7 +125,7 @@ const ExperienceSection = () => {
               <div className="relative pl-6">
                 <div className="absolute -left-[5px] top-1 w-2 h-2 rounded-full bg-foreground" />
                 <h4 className="text-sm font-semibold text-foreground">Full Stack Engineer Intern</h4>
-                <p className="text-xs text-muted-foreground">Jun 2021 - Dec 2021 · 7 mos</p>
+                <p className="text-xs text-muted-foreground">Mar 2021 - Aug 2021 · 6 mos</p>
                 <ExpandableDescription
                   preview={[
                     "· Developed frontend components using React and supported backend API development, building strong foundations in full-stack engineering and enterprise systems.",
