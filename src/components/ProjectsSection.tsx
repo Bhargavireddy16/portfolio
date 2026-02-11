@@ -40,6 +40,20 @@ const ProjectsSection = () => {
           <span>Next.js, Azure AI, Three.js and +2 skills</span>
         </div>
       </div>
+
+      <div className="border-t border-border my-4" />
+
+      <div>
+        <h3 className="text-base font-semibold text-foreground">Construct AI</h3>
+        <p className="text-xs text-muted-foreground">Aug 2024 - Oct 2024</p>
+        <p className="text-sm text-foreground mt-2">
+          High-performance neural scene engine that enables users to synthesize complex 3D worlds from natural language commands using Electron and WebGL.
+        </p>
+        <div className="flex items-center gap-1 mt-3 text-sm text-foreground">
+          <span>◇</span>
+          <span>Electron, Three.js, Node.js and +4 skills</span>
+        </div>
+      </div>
     </div>
   );
 };
