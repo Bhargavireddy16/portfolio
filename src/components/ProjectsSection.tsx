@@ -33,7 +33,7 @@ const ProjectsSection = () => {
         <div className="border border-border rounded-lg overflow-hidden max-w-md">
           <a href="https://ai-scene-generator.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
             <div className="w-24 h-16 shrink-0 bg-muted">
-              <img src="/projects/construct-ai.png" alt="Construct AI" className="w-full h-full object-cover" />
+              <img src="/portfolio/projects/construct-ai.png" alt="Construct AI" className="w-full h-full object-cover" />
             </div>
             <div className="p-3 flex items-center justify-between flex-1 min-w-0">
               <span className="text-sm font-medium truncate text-foreground pr-2">Construct AI | 3D Scene Engine</span>
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
         <div className="border border-border rounded-lg overflow-hidden max-w-md">
           <a href="https://azure-ai-drafter.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
             <div className="w-24 h-16 shrink-0 bg-muted">
-              <img src="/projects/architex-ai.png" alt="Architex AI" className="w-full h-full object-cover" />
+              <img src="/portfolio/projects/architex-ai.png" alt="Architex AI" className="w-full h-full object-cover" />
             </div>
             <div className="p-3 flex items-center justify-between flex-1 min-w-0">
               <span className="text-sm font-medium truncate text-foreground pr-2">Architex AI | Architectural Platform</span>
@@ -93,7 +93,7 @@ const ProjectsSection = () => {
         <div className="border border-border rounded-lg overflow-hidden max-w-md">
           <a href="https://www.projhealth.com/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
             <div className="w-24 h-16 shrink-0 bg-muted">
-              <img src="/projects/project-h.png" alt="Project-H" className="w-full h-full object-cover" />
+              <img src="/portfolio/projects/project-h.png" alt="Project-H" className="w-full h-full object-cover" />
             </div>
             <div className="p-3 flex items-center justify-between flex-1 min-w-0">
               <span className="text-sm font-medium truncate text-foreground pr-2">Project-H | Health Platform</span>
