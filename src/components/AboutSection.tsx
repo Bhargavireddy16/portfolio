@@ -13,7 +13,7 @@ const AboutSection = () => {
             I love building scalable AI products using my full-stack development skills. I enjoy collaborating with AI teams to design and build practical solutions that solve real-world problems.
           </p>
           <p>
-            I work across the full stack — using React.js and Vue.js for frontend development, and Node.js/Express or Django/FastAPI on the backend — to create reliable, end-to-end applications.
+            I work across the full stack using React.js and Vue.js for frontend development, and Node.js/Express or Django/FastAPI on the backend — to create reliable, end-to-end applications.
           </p>
           <p>
             I focus on clean architecture, performance, and scalability while integrating AI capabilities into production-ready systems.
