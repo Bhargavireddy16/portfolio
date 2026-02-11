@@ -1,5 +1,16 @@
 import { Plus, Pencil, SquareArrowOutUpRight } from "lucide-react";
 
+// Helper to handle image paths correctly on GitHub Pages
+const getAssetPath = (path: string) => {
+  // If we're in production (GitHub Pages), prepend the base path
+  const header = import.meta.env.BASE_URL;
+  // clean up potential double slashes if path starts with / and header ends with /
+  const cleanHeader = header.endsWith('/') ? header.slice(0, -1) : header;
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+
+  return `${cleanHeader}${cleanPath}`;
+};
+
 const ProjectsSection = () => {
   return (
     <div className="bg-card rounded-lg border border-border p-6">
@@ -33,7 +44,7 @@ const ProjectsSection = () => {
         <div className="border border-border rounded-lg overflow-hidden max-w-md">
           <a href="https://ai-scene-generator.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
             <div className="w-24 h-16 shrink-0 bg-muted">
-              <img src="/portfolio/projects/construct-ai.png" alt="Construct AI" className="w-full h-full object-cover" />
+              <img src={getAssetPath("/projects/construct-ai.png")} alt="Construct AI" className="w-full h-full object-cover" />
             </div>
             <div className="p-3 flex items-center justify-between flex-1 min-w-0">
               <span className="text-sm font-medium truncate text-foreground pr-2">Construct AI | 3D Scene Engine</span>
@@ -63,7 +74,7 @@ const ProjectsSection = () => {
         <div className="border border-border rounded-lg overflow-hidden max-w-md">
           <a href="https://azure-ai-drafter.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
             <div className="w-24 h-16 shrink-0 bg-muted">
-              <img src="/portfolio/projects/architex-ai.png" alt="Architex AI" className="w-full h-full object-cover" />
+              <img src={getAssetPath("/projects/architex-ai.png")} alt="Architex AI" className="w-full h-full object-cover" />
             </div>
             <div className="p-3 flex items-center justify-between flex-1 min-w-0">
               <span className="text-sm font-medium truncate text-foreground pr-2">Architex AI | Architectural Platform</span>
@@ -93,7 +104,7 @@ const ProjectsSection = () => {
         <div className="border border-border rounded-lg overflow-hidden max-w-md">
           <a href="https://www.projhealth.com/" target="_blank" rel="noopener noreferrer" className="flex bg-muted/30 hover:bg-muted/50 transition-colors group">
             <div className="w-24 h-16 shrink-0 bg-muted">
-              <img src="/portfolio/projects/project-h.png" alt="Project-H" className="w-full h-full object-cover" />
+              <img src={getAssetPath("/projects/project-h.png")} alt="Project-H" className="w-full h-full object-cover" />
             </div>
             <div className="p-3 flex items-center justify-between flex-1 min-w-0">
               <span className="text-sm font-medium truncate text-foreground pr-2">Project-H | Health Platform</span>
